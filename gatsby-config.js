@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Joocy Blog`,
     author: `Gareth Fleming`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `A place where I can tell you all about the exciting things that Joocy is doing.`,
+    siteUrl: `https://blog.joocy.com`,
     social: {
       twitter: `d3z`,
     },
@@ -50,15 +50,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-37683198-1`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Joocy Blog`,
+        short_name: `Joocy`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
